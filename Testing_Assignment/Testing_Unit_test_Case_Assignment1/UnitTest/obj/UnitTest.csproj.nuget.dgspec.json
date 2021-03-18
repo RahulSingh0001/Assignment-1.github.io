@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj",
+        "projectName": "BusinessEntities",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\rahula.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rahula.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj"
+              },
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj"
+              },
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

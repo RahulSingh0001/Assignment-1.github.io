@@ -1,0 +1,6 @@
+C:\Users\rahula.singh\Desktop\angular\testing\Gateway-Assignments-master\UnitTest\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\angular\testing\Gateway-Assignments-master\UnitTest\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\rahula.singh\Desktop\angular\testing\Gateway-Assignments-master\UnitTest\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\rahula.singh\Desktop\angular\testing\Gateway-Assignments-master\UnitTest\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\angular\testing\Gateway-Assignments-master\UnitTest\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\rahula.singh\Desktop\angular\testing\Gateway-Assignments-master\UnitTest\BusinessEntities\obj\Debug\BusinessEntities.csprojAssemblyReference.cache

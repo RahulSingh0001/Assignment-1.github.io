@@ -1,0 +1,6 @@
+2020-12-23 02:21:38,705 [41] ERROR UserSignupLogin.Controllers.HomeController: Index - Error:
+System.Exception: Test
+   at UserSignupLogin.Controllers.HomeController.Index() in C:\Users\Rahul Singh\source\repos\UserSignupLogin\UserSignupLogin\Controllers\HomeController.cs:line 20
+2020-12-23 02:22:39,429 [41] ERROR UserSignupLogin.Controllers.HomeController: Index - Error:
+System.Exception: Test
+   at UserSignupLogin.Controllers.HomeController.Index() in C:\Users\Rahul Singh\source\repos\UserSignupLogin\UserSignupLogin\Controllers\HomeController.cs:line 20

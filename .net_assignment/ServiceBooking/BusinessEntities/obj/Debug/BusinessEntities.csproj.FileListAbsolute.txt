@@ -1,0 +1,6 @@
+C:\Users\Rahul Singh\Desktop\Gateway Groups\.net section\ServiceBooking-main\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Rahul Singh\Desktop\Gateway Groups\.net section\ServiceBooking-main\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Rahul Singh\Desktop\Gateway Groups\.net section\ServiceBooking-main\BusinessEntities\obj\Debug\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\Rahul Singh\Desktop\Gateway Groups\.net section\ServiceBooking-main\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\Rahul Singh\Desktop\Gateway Groups\.net section\ServiceBooking-main\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Rahul Singh\Desktop\Gateway Groups\.net section\ServiceBooking-main\BusinessEntities\obj\Debug\BusinessEntities.pdb

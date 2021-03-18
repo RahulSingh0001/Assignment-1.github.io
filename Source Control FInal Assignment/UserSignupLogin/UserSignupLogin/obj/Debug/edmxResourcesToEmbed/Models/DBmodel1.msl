@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBuserSignupLoginModelStoreContainer" CdmEntityContainer="DBuserSignupLoginEntities1">
+    <EntitySetMapping Name="TBLUserInfoes">
+      <EntityTypeMapping TypeName="DBuserSignupLoginModel.TBLUserInfo">
+        <MappingFragment StoreEntitySet="TBLUserInfo">
+          <ScalarProperty Name="IdUs" ColumnName="IdUs" />
+          <ScalarProperty Name="NameUs" ColumnName="NameUs" />
+          <ScalarProperty Name="GenderUs" ColumnName="GenderUs" />
+          <ScalarProperty Name="AgeUs" ColumnName="AgeUs" />
+          <ScalarProperty Name="PasswordUs" ColumnName="PasswordUs" />
+          <ScalarProperty Name="ConfirmPasswordUs" ColumnName="ConfirmPasswordUs" />
+          <ScalarProperty Name="EmailUs" ColumnName="EmailUs" />
+          <ScalarProperty Name="CreditCardUs" ColumnName="CreditCardUs" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="FileUs" ColumnName="FileUs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

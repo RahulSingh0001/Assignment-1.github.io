@@ -1,0 +1,812 @@
+{
+	"info": {
+		"_postman_id": "f64aa03e-5c55-4ce1-9b85-13aa1b603c59",
+		"name": "Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hotel Details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/HotelDetails",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"HotelDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Room Details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/RoomDetails",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"RoomDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hotel 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelName\" : \"Novotel Ahmedabad\",\r\n    \"Address\" : \"S.G. Highway, Ahmedabad\",\r\n    \"City\" : \"Ahmedabad\",\r\n    \"Pincode\" : 380054,\r\n    \"ContactNumber\" : \"7584930586\",\r\n    \"ContactPerson\" : \"Dharmik\",\r\n    \"Website\" : \"www.novotelhotel.com\",\r\n    \"Facebook\" : \"Novotel\",\r\n    \"Twitter\" : \"@novotel\",\r\n    \"IsActive\" : true,\r\n    \"CreatedBy\" : \"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostHotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hotel 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelName\" : \"The Fern\",\r\n    \"Address\" : \"Parewadi chowk\",\r\n    \"City\" : \"Rajkot\",\r\n    \"Pincode\" : 360003,\r\n    \"ContactNumber\" : \"9573658601\",\r\n    \"ContactPerson\" : \"Nayan\",\r\n    \"Website\" : \"www.thefern.com\",\r\n    \"Facebook\" : \"TheFern\",\r\n    \"Twitter\" : \"@thefern12\",\r\n    \"IsActive\" : true,\r\n    \"CreatedBy\" : \"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostHotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hotel 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelName\" : \"Hotel Avista\",\r\n    \"Address\" : \"Jetalpur Road, Alkapuri\",\r\n    \"City\" : \"Vadodra\",\r\n    \"Pincode\" : 390007,\r\n    \"ContactNumber\" : \"9535558604\",\r\n    \"ContactPerson\" : \"Vinay\",\r\n    \"Website\" : \"www.hotelavista.com\",\r\n    \"Facebook\" : \"AvistaHotel\",\r\n    \"Twitter\" : \"@avistahotel123\",\r\n    \"IsActive\" : true,\r\n    \"CreatedBy\" : \"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostHotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hotel 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelName\" : \"Lord Plaza\",\r\n    \"Address\" : \"Ring Road, Delhi Gate\",\r\n    \"City\" : \"Surat\",\r\n    \"Pincode\" : 395003,\r\n    \"ContactNumber\" : \"8574839087\",\r\n    \"ContactPerson\" : \"Alok\",\r\n    \"Website\" : \"www.lordplaza.com\",\r\n    \"Facebook\" : \"LordPlaza\",\r\n    \"Twitter\" : \"@lordplazahotel\",\r\n    \"IsActive\" : true,\r\n    \"CreatedBy\" : \"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostHotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hotel 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"HotelName\" : \"Hotel Suman City\",\r\n    \"Address\" : \"CH Rd, Sector 11\",\r\n    \"City\" : \"Gandhinagar\",\r\n    \"Pincode\" : 382010,\r\n    \"ContactNumber\" : \"8574787887\",\r\n    \"ContactPerson\" : \"Vikas\",\r\n    \"Website\" : \"www.sumancityhotel.com\",\r\n    \"Facebook\" : \"SumancityHotel\",\r\n    \"Twitter\" : \"@sumancityhotel\",\r\n    \"IsActive\" : true,\r\n    \"CreatedBy\" : \"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostHotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"1\",\r\n    \"RoomName\":\"Delux\",\r\n    \"RoomCategory\":\"size<35 m2\",\r\n    \"RoomPrice\":\"250\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"1\",\r\n\"RoomName\":\"Super Delux\",\r\n\"RoomCategory\":\"size 36-50 m2\",\r\n\"RoomPrice\":\"500\",\r\n\"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"1\",\r\n\"RoomName\":\"Luxury\",\r\n\"RoomCategory\":\"size 51-100m2\",\r\n\"RoomPrice\":\"750\",\r\n\"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"2\",\r\n    \"RoomName\":\"Delux\",\r\n    \"RoomCategory\":\"size<35 m2\",\r\n    \"RoomPrice\":\"255\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"2\",\r\n    \"RoomName\":\"Super Delux\",\r\n    \"RoomCategory\":\"size 36-50 m2\",\r\n    \"RoomPrice\":\"555\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"2\",\r\n    \"RoomName\":\"Luxury\",\r\n    \"RoomCategory\":\"size 51-100m2\",\r\n    \"RoomPrice\":\"700\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"3\",\r\n    \"RoomName\":\"Delux\",\r\n    \"RoomCategory\":\"size<35 m2\",\r\n    \"RoomPrice\":\"250\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"3\",\r\n    \"RoomName\":\"Super Delux\",\r\n    \"RoomCategory\":\"size 36-50 m2\",\r\n    \"RoomPrice\":\"523\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"3\",\r\n    \"RoomName\":\"Luxury\",\r\n    \"RoomCategory\":\"size 51-100m2\",\r\n    \"RoomPrice\":\"850\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"4\",\r\n    \"RoomName\":\"Delux\",\r\n    \"RoomCategory\":\"size<35 m2\",\r\n    \"RoomPrice\":\"260\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"4\",\r\n    \"RoomName\":\"Super Delux\",\r\n    \"RoomCategory\":\"size 36-50 m2\",\r\n    \"RoomPrice\":\"655\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 12",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"4\",\r\n    \"RoomName\":\"Luxury\",\r\n    \"RoomCategory\":\"size 51-100m2\",\r\n    \"RoomPrice\":\"800\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 13",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"5\",\r\n    \"RoomName\":\"Delux\",\r\n    \"RoomCategory\":\"size<35 m2\",\r\n    \"RoomPrice\":\"300\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 14",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"5\",\r\n\"RoomName\":\"Super Delux\",\r\n\"RoomCategory\":\"size 36-50 m2\",\r\n\"RoomPrice\":\"675\",\r\n\"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room 15",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelID\":\"5\",\r\n    \"RoomName\":\"Luxury\",\r\n    \"RoomCategory\":\"size 51-100m2\",\r\n    \"RoomPrice\":\"759\",\r\n    \"CreatedBy\":\"Akshayrajsinh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostRoom",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking of Room",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomId\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PostBooking",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PostBooking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Room-Availability",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/RoomAvailable/09-01-2021",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"RoomAvailable",
+						"09-01-2021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking-Date-Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BookingDate\": \"10-20-2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PutBookingDate/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PutBookingDate",
+						"1"
+					]
+				},
+				"description": "Add date in mm-dd-yyyy"
+			},
+			"response": []
+		},
+		{
+			"name": "Booking Status Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"StautsOfBooking\":\"Cancelled\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/PutBookingDate/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"PutBookingDate",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete-Booking",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44359/api/Hotel/Delete/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Hotel",
+						"Delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

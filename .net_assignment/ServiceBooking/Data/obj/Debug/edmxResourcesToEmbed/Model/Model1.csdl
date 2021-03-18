@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VehiclesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address1" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address2" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Zipcode" Type="Int32" Nullable="false" />
+    <Property Name="PhoneNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HomePhone" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="EmailId" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK__Vehicles__Custom__6FE99F9F" FromRole="Customers" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Dealer">
+    <Key>
+      <PropertyRef Name="DealerId" />
+    </Key>
+    <Property Name="DealerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address1" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address2" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Zipcode" Type="Int32" Nullable="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContactNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Mechanic">
+    <Key>
+      <PropertyRef Name="MechanicId" />
+    </Key>
+    <Property Name="MechanicId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EmailId" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Brand" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Bookings" Relationship="VehiclesModel.FK__Booking__Mechani__503BEA1C" FromRole="Mechanic" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="ServiceId" />
+    </Key>
+    <Property Name="ServiceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="Duration" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Boolean" />
+    <NavigationProperty Name="Bookings" Relationship="VehiclesModel.FK__Booking__Service__51300E55" FromRole="Service" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="VehicleId" />
+    </Key>
+    <Property Name="VehicleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LicencePlate" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Brand" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="RegistraionDate" Type="DateTime" Precision="0" />
+    <Property Name="ChassiNo" Type="String" MaxLength="17" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerId" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Vehicles__Custom__6FE99F9F" FromRole="Vehicles" ToRole="Customers" />
+    <NavigationProperty Name="Bookings" Relationship="VehiclesModel.FK__Booking__Vehicle__5224328E" FromRole="Vehicle" ToRole="Booking" />
+  </EntityType>
+  <Association Name="FK__Vehicles__Custom__6FE99F9F">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VehiclesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Dealers" EntityType="Self.Dealer" />
+    <EntitySet Name="Mechanics" EntityType="Self.Mechanic" />
+    <EntitySet Name="Services" EntityType="Self.Service" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <AssociationSet Name="FK__Vehicles__Custom__6FE99F9F" Association="Self.FK__Vehicles__Custom__6FE99F9F">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+    <EntitySet Name="Bookings" EntityType="VehiclesModel.Booking" />
+    <AssociationSet Name="FK__Booking__Mechani__503BEA1C" Association="VehiclesModel.FK__Booking__Mechani__503BEA1C">
+      <End Role="Mechanic" EntitySet="Mechanics" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Booking__Service__51300E55" Association="VehiclesModel.FK__Booking__Service__51300E55">
+      <End Role="Service" EntitySet="Services" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Booking__Vehicle__5224328E" Association="VehiclesModel.FK__Booking__Vehicle__5224328E">
+      <End Role="Vehicle" EntitySet="Vehicles" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <EntitySet Name="StautsOfBookings" EntityType="VehiclesModel.StautsOfBooking" />
+    <AssociationSet Name="FK__Booking__Status__59C55456" Association="VehiclesModel.FK__Booking__Status__59C55456">
+      <End Role="StautsOfBooking" EntitySet="StautsOfBookings" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="VehicleId" Type="Int32" />
+    <Property Name="ServiceId" Type="Int32" />
+    <Property Name="StartBookingDate" Type="DateTime" Precision="0" />
+    <Property Name="EndBookingDate" Type="DateTime" Precision="0" />
+    <Property Name="MechanicId" Type="Int32" />
+    <Property Name="Status" Type="Int32" />
+    <NavigationProperty Name="Mechanic" Relationship="VehiclesModel.FK__Booking__Mechani__503BEA1C" FromRole="Booking" ToRole="Mechanic" />
+    <NavigationProperty Name="Service" Relationship="VehiclesModel.FK__Booking__Service__51300E55" FromRole="Booking" ToRole="Service" />
+    <NavigationProperty Name="Vehicle" Relationship="VehiclesModel.FK__Booking__Vehicle__5224328E" FromRole="Booking" ToRole="Vehicle" />
+    <NavigationProperty Name="StautsOfBooking" Relationship="VehiclesModel.FK__Booking__Status__59C55456" FromRole="Booking" ToRole="StautsOfBooking" />
+  </EntityType>
+  <Association Name="FK__Booking__Mechani__503BEA1C">
+    <End Type="VehiclesModel.Mechanic" Role="Mechanic" Multiplicity="0..1" />
+    <End Type="VehiclesModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mechanic">
+        <PropertyRef Name="MechanicId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="MechanicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Booking__Service__51300E55">
+    <End Type="VehiclesModel.Service" Role="Service" Multiplicity="0..1" />
+    <End Type="VehiclesModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="ServiceId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Booking__Vehicle__5224328E">
+    <End Type="VehiclesModel.Vehicle" Role="Vehicle" Multiplicity="0..1" />
+    <End Type="VehiclesModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicle">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="StautsOfBooking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bookings" Relationship="VehiclesModel.FK__Booking__Status__59C55456" FromRole="StautsOfBooking" ToRole="Booking" />
+  </EntityType>
+  <Association Name="FK__Booking__Status__59C55456">
+    <End Type="VehiclesModel.StautsOfBooking" Role="StautsOfBooking" Multiplicity="0..1" />
+    <End Type="VehiclesModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StautsOfBooking">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
