@@ -1,0 +1,92 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "email": "gateway@gmail.com",
+      "name": "Gateway Group",
+      "totalEmployee": 200,
+      "address": "Ahemdabad",
+      "isCompanyActive": true,
+      "totalBranch": 2,
+      "companyBranch": [
+        {
+          "branchId": "1",
+          "branchName": "Bodakdev",
+          "address": "Bodakdev, Ahemdabad, Gujarat"
+        },
+        {
+          "branchId": "2",
+          "branchName": "Vadodra",
+          "address": "Vadodra, Gujarat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "dummy@gmail.com",
+      "name": "Dummy",
+      "totalEmployee": 10,
+      "address": "udaipur",
+      "isCompanyActive": true,
+      "totalBranch": 2,
+      "companyBranch": [
+        {
+          "branchId": 2,
+          "branchName": "ijfhuhdfuhfu8hxdufhsd",
+          "branchAddress": "usdhdfuhudfu"
+        },
+        {
+          "branchId": 78,
+          "branchName": "fxhyuhvuhfhhgf",
+          "branchAddress": "dfvdfgfgbfbgfv"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "email": "rahul@gmail.com",
+      "name": "Rahul Singh",
+      "totalEmployee": 300,
+      "address": "Bihar",
+      "isCompanyActive": true,
+      "totalBranch": 1,
+      "companyBranch": [
+        {
+          "branchId": 5,
+          "branchName": "IT1",
+          "branchAddress": "Muzaffarpur"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "email": "",
+      "name": "",
+      "totalEmployee": "",
+      "address": "",
+      "isCompanyActive": "",
+      "totalBranch": 0,
+      "companyBranch": []
+    },
+    {
+      "id": 5,
+      "email": "",
+      "name": "",
+      "totalEmployee": "",
+      "address": "",
+      "isCompanyActive": "",
+      "totalBranch": 0,
+      "companyBranch": []
+    },
+    {
+      "id": 6,
+      "email": "",
+      "name": "",
+      "totalEmployee": "",
+      "address": "",
+      "isCompanyActive": "",
+      "totalBranch": 0,
+      "companyBranch": []
+    }
+  ]
+}
