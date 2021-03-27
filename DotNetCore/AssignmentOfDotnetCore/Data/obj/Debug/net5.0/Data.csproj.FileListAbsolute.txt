@@ -1,0 +1,15 @@
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\bin\Debug\net5.0\Data.deps.json
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\bin\Debug\net5.0\Data.dll
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\bin\Debug\net5.0\ref\Data.dll
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\bin\Debug\net5.0\Data.pdb
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\bin\Debug\net5.0\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\bin\Debug\net5.0\BusinessEntities.pdb
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.csprojAssemblyReference.cache
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.dll
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\ref\Data.dll
+C:\Users\rahula.singh\Desktop\share dg\Gateway-Assignments-master\DotnetCore\Data\obj\Debug\net5.0\Data.pdb
