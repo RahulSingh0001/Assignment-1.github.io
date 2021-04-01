@@ -3486,17 +3486,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rahula.singh\\.nuget\\packages\\": {}
+    "C:\\Users\\rahula.singh\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTestAssignment2\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment2\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTestAssignment2\\UnitTest\\UnitTest.csproj",
+      "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment2\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\rahula.singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTestAssignment2\\UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment2\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\rahula.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3512,8 +3516,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTestAssignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj": {
-              "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTestAssignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj"
+            "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj": {
+              "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj"
             }
           }
         }
@@ -3560,7 +3564,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

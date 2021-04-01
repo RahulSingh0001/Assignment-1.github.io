@@ -6,163 +6,127 @@ namespace UnitTest
 {
     public class UnitTest1
     {
+        //Question 1 and 2
+        //Test Case to Convert Upper case string to lower case and vice versa
         [Fact]
-        public void ConvertUpper1()
+        public void ConvertTestCase()
         {
-            string a = "try";
-            string result = a.ConvertUpper();
-            Assert.Equal("TRY", result);
+            string sample = "rAhUl";
+            string result = sample.CaseOfConverter();
+            
         }
-        [Fact]
-        public void ConvertUpper2()
-        {
-            string a = "try";
-            string result = a.ConvertUpper();
-            Assert.NotEqual("TrY", result);
-        }
-        [Fact]
-        public void ConvertLower1()
-        {
-            string a = "TRY";
-            string result = a.ConvertLower();
-            Assert.Equal("try", result);
-        }
-        [Fact]
-        public void ConvertLower2()
-        {
-            string a = "TRY";
-            string result = a.ConvertLower();
-            Assert.NotEqual("Try", result);
-        }
-        [Fact]
-        public void ConvertTitleCase1()
-        {
-            string a = "try demo";
-            string result = a.ConvertTitleCase();
-            Assert.Equal("Try Demo", result);
-        }
-        [Fact]
-        public void ConvertTitleCase2()
-        {
-            string a = "try demo";
-            string result = a.ConvertTitleCase();
-            Assert.NotEqual("TRY Demo", result);
-        }
-        [Fact]
-        public void IsLower1()
-        {
-            string a = "try";
-            bool result = a.IsLower();
-            Assert.True(result);
-        }
-        [Fact]
-        public void IsLower2()
-        {
-            string a = "Try";
-            bool result = a.IsLower();
-            Assert.False(result);
-        }
-        [Fact]
-        public void IsUpper1()
-        {
-            string a = "TRY";
-            bool result = a.IsUpper();
-            Assert.True(result);
-        }
-        [Fact]
-        public void IsUpper2()
-        {
-            string a = "TrY";
-            bool result = a.IsUpper();
-            Assert.False(result);
-        }
-        [Fact]
-        public void ConvertCapitalize1()
-        {
-            string a = "try demo";
-            string result = a.ConvertCapitalize();
-            Assert.Equal("Try demo", result);
-        }
-        [Fact]
-        public void ConvertCapitalize2()
-        {
-            string a = "try demo";
-            string result = a.ConvertCapitalize();
-            Assert.NotEqual("Try Demo", result);
-        }
-        [Fact]
-        public void WordCount1()
-        {
-            string a = "try demo";
-            int result = a.WordCount();
-            Assert.Equal(2, result);
-        }
-        [Fact]
-        public void WordCount2()
-        {
-            string a = "try demo";
-            int result = a.WordCount();
-            Assert.NotEqual(1, result);
-        }
-        [Fact]
-        public void RemoveLastCharacter1()
-        {
-            string a = "try";
-            string result = a.RemoveLastCharacter();
-            Assert.Equal("tr", result);
-        }
-        [Fact]
-        public void RemoveLastCharacter2()
-        {
-            string a = "try";
-            string result = a.RemoveLastCharacter();
-            Assert.NotEqual("try", result);
-        }
-        [Fact]
-        public void ValidNumeric1()
-        {
-            string a = "333";
-            bool result = a.ValidNumeric();
-            Assert.True(result);
-        }
-        [Fact]
-        public void ValidNumeric2()
-        {
-            string a = "33a3";
-            bool result = a.ValidNumeric();
-            Assert.False(result);
-        }
-        [Fact]
-        public void StringToNumber1()
-        {
-            string a = "454";
-            int? result = a.StringToNumber();
-            Assert.Equal(454, result);
-        }
-        [Fact]
-        public void Test_StringToNumber()
-        {
-            // Arrange
-            var inputString = "123";
-            var output = 123;
-            // Act
-            var newString = inputString.StringToNumber();
-            // Assert
-            Assert.Equal(newString, output);
-        }
+        //End of ConvertTestCase
 
 
+
+        //Question 3
+        //Test Case to Convert string into Title
         [Fact]
-        public void StringToNumber2()
+        public void TitleCaseTest()
         {
-            // Arrange
-            var inputString = "R123";
-            var output = 123;
-            // Act
-            var newString = inputString.StringToNumber();
-            // Assert
-            Assert.NotEqual(newString, output);
+            string sample = "Rahul singh demo";
+            string result = sample.TitleCaseConverter();
+            
         }
+        //End of TitleCaseTest Function
+
+
+
+        //Question 4
+        //Test Case to check string is in lower case or not
+        [Fact]
+        public void LowerCaseTest()
+        {
+            string sample = "rahul singh";
+            bool result = sample.CaseIsLower();
+            
+        }
+        //End of LowerCaseTest
+
+
+
+        //Question 5
+        //Test Case for capitalization of string
+        [Fact]
+        public void StringCapitalizer()
+        {
+            string sample = "rahul singh";
+            string result = sample.CapitalizationOfString();
+            
+        }
+        //End of StringCapitalizer function
+
+
+        //Question 6
+        //Test Case to check string is in lower case or not
+        [Fact]
+        public void UpperCaseTest()
+        {
+            string sample = "Rahul Singh";
+            bool result = sample.CaseIsUpper();
+
+        }
+        //End of LowerCaseTest
+
+        //Question 7
+        [Fact]
+        public void NumberValidationCase()
+        {
+            string sample = "333";
+            bool result = sample.ValidationOfNumber();
+            
+        }
+        //End of NumberValidationCase function
+
+
+
+        //Question 8
+        //Case to Remove last Character of string
+        [Fact]
+        public void RemoveCharacterCase()
+        {
+            string sample = "Rahul";
+            string result = sample.CharacterRemoval();
+
+        }
+        //End of RemoveCharacterCase
+
+
+
+        //Question 9
+        //Test case to count the word in string name 'sample'
+        [Fact]
+        public void CountTheWords()
+        {
+            string sample = "rahul singh";
+            int result = sample.CountingOfWords();
+           
+        }
+        //End of word counting test case here 
+
+
+
+        //Question 10
+        //String to integer converter
+        [Fact]
+        public void IntConverter()
+        {
+            string sample = "454";
+            int? result = sample.IntegerConverter();
+
+        }
+        //End of IntConverter function
+
+
+
+
+
+
+
+
+
+
+
 
 
 
