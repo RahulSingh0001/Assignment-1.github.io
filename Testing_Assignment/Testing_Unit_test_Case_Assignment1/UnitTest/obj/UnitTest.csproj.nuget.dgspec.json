@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
+    "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj",
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj",
         "projectName": "BusinessEntities",
-        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj": {
+    "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj"
               },
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj"
               }
             }
           }
@@ -36,16 +36,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj": {
+    "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj"
               }
             }
           }
@@ -55,15 +55,18 @@
         "net472": {}
       }
     },
-    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\UnitTest.csproj",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\rahula.singh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\rahula.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -79,17 +82,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj"
               },
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj"
               },
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Data\\Data.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Data\\Data.csproj"
               },
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\WebAPI\\WebAPI.csproj"
               }
             }
           }
@@ -144,23 +147,23 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\WebAPI\\WebAPI.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\WebAPI\\WebAPI.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\BusinessEntities\\BusinessEntities.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\BusinessEntities\\BusinessEntities.csproj"
               },
-              "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\angular\\testing\\Gateway-Assignments-master\\UnitTest\\Business\\Business.csproj"
+              "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\Testing_Assignment\\Testing_Unit_test_Case_Assignment1\\Business\\Business.csproj"
               }
             }
           }

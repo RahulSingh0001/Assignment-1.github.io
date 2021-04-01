@@ -12,11 +12,15 @@ namespace Data.Repository
 {
     public class PassengerRepository : IPassengerRepository
     {
+        //Method to get data in Dbcontext
         private readonly TestEntities2 _dbContext;
         public PassengerRepository()
         {
             _dbContext = new TestEntities2();
         }
+
+
+        //List for passenger's data
         public List<PassengerViewModel> GetAllPassengers()
         {
             var entity = _dbContext.Passengers.ToList();
@@ -35,7 +39,10 @@ namespace Data.Repository
             }
             return list;
         }
-        public string CreatePassneger(PassengerViewModel model)
+
+
+        //Passenger Creation Section
+        public string PassengerCreation(PassengerViewModel model)
         {
             try
             {
@@ -48,7 +55,7 @@ namespace Data.Repository
                     passenger.PhoneNo = model.PhoneNo;
                     _dbContext.Passengers.Add(passenger);
                     _dbContext.SaveChanges();
-                    return "Added succeffuly";
+                    return "Passenger Added Sucessfully";
                 }
                 return "Model is null";
             }
@@ -58,9 +65,13 @@ namespace Data.Repository
             }
         }
 
-        public bool DeletePassneger(int? Id)
+
+
+
+        //Passenger delete section with FirstOrDefault LINQ so it can handle null as well
+        public bool PassengerDelete(int? Id)
         {
-            var entity = _dbContext.Passengers.Find(Id);
+            var entity = _dbContext.Passengers.FirstOrDefault(Id);
             if (entity != null)
             {
                 _dbContext.Passengers.Remove(entity);
@@ -70,6 +81,9 @@ namespace Data.Repository
             return false;
 
         }
+        
+        
+        //Update Passenger 
         public string UpdatePassneger(int id, PassengerViewModel model)
         {
             try
@@ -83,7 +97,7 @@ namespace Data.Repository
                     entity.PhoneNo = model.PhoneNo;
                     _dbContext.Entry(entity).State = EntityState.Modified;
                     _dbContext.SaveChanges();
-                    return "Passenger updated";
+                    return "Updated Sucessfully";
                 }
                 return "Model is null";
             }
@@ -93,6 +107,10 @@ namespace Data.Repository
             }
         }
 
+        
+        
+        
+        //Function to get passenger with ID
         public PassengerViewModel GetPassneger(int? Id)
         {
             try
@@ -110,5 +128,10 @@ namespace Data.Repository
                 return null;
             }
         }
+
+        //public string PassengerUpdate(int id, PassengerViewModel model)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

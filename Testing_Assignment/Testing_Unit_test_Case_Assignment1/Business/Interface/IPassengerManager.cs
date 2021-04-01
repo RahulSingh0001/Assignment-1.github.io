@@ -11,9 +11,9 @@ namespace Business.Interface
     public interface IPassengerManager
     {
         List<PassengerViewModel> GetAllPassengers();
-        string CreatePassneger(PassengerViewModel model);
-        bool DeletePassneger(int? Id);
+        string PassengerCreation(PassengerViewModel model);
+        bool PassengerDelete(int? Id);
         PassengerViewModel GetPassneger(int? Id);
-        string UpdatePassneger(int id, PassengerViewModel model);
+        string PassengerUpdate(int id, PassengerViewModel model);
     }
 }

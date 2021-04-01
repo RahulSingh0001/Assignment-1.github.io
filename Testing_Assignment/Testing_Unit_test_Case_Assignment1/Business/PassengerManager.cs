@@ -19,14 +19,14 @@ namespace Business
             _PassengerRepository = PassengerRepository;
         }
 
-        public string CreatePassneger(PassengerViewModel model)
+        public string PassengerCreation(PassengerViewModel model)
         {
-            return _PassengerRepository.CreatePassneger(model);
+            return _PassengerRepository.PassengerCreation(model);
         }
 
-        public bool DeletePassneger(int? Id)
+        public bool PassengerDelete(int? Id)
         {
-            return _PassengerRepository.DeletePassneger(Id);
+            return _PassengerRepository.PassengerDelete(Id);
         }
 
         public List<PassengerViewModel> GetAllPassengers()
@@ -39,9 +39,9 @@ namespace Business
             return _PassengerRepository.GetPassneger(Id);
         }
 
-        public string UpdatePassneger(int id, PassengerViewModel model)
+        public string PassengerUpdate(int id, PassengerViewModel model)
         {
-            return _PassengerRepository.UpdatePassneger(id, model);
+            return _PassengerRepository.PassengerUpdate(id, model);
         }
     }
 }

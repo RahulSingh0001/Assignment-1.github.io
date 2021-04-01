@@ -9,10 +9,11 @@ namespace Data.Repository.Interface
 {
     public interface IPassengerRepository
     {
-        string CreatePassneger(PassengerViewModel model);
-        bool DeletePassneger(int? Id);
+        string PassengerCreation(PassengerViewModel model);
+        bool PassengerDelete(int? Id);
         PassengerViewModel GetPassneger(int? Id);
         List<PassengerViewModel> GetAllPassengers();
         string UpdatePassneger(int id, PassengerViewModel model);
+        string PassengerUpdate(int id, PassengerViewModel model);
     }
 }
