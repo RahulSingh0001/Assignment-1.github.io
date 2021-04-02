@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -69,12 +69,12 @@ namespace ProductManagement.Tests.Controllers
             ProductsController controller = new ProductsController();
             Product product = new Product()
             {
-                Id = 10,
-                Name = "Mobile",
+                Id = 12,
+                Name = "Watch",
                 Category = "Common",
-                Price = 13000,
-                Quantity = 1,
-                Short_desc = "Mobile",
+                Price = 12000,
+                Quantity = 10,
+                Short_desc = "watch",
                 Small_img = "image"
             };
 

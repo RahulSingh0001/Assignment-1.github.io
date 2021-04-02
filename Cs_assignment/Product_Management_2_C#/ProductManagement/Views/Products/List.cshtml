@@ -36,15 +36,30 @@
 
 @using (Html.BeginForm("List", "Products", FormMethod.Get))
 {
+    
 <div class="form-inline">
-    @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "form-control" })
-    <input type="submit" value="Search" class="btn btn-primary" />
+    <p style="padding-left:70%">
+        @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "form-control" })
+        <input type="submit" value="Search" class="btn btn-warning" />
 
-</div>}
+      
+    
+    @*<div class="alert alert-success" role="alert">
+            This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>*@
+    </p>
+    <p style="margin-top:-5%;">
+        <div>
+            <h3>Product List</h3>
+        </div>
+    </p>
+</div>
+    
+    }
 <br />
 @using (Html.BeginForm("List", "Products", FormMethod.Post))
 {
-<button type="submit" name="ProductId" value="Delete" id="deleteButton" class="btn btn-sm btn-danger rounded-0" ><i class="fa fa-trash-o"></i> Delete</button>
+<button type="submit" name="ProductId" value="Delete" id="deleteButton" class="btn btn-sm btn-danger rounded-0"><i class="fa fa-trash-o"></i> Delete</button>
                 <br />
                                 <div style="height:20px;"></div>
                                                 <table class="table">
@@ -55,7 +70,7 @@
                                                         <th>
                                                             @Html.Label("Product Image")
                                                         </th>
-                                                        <th style="width: 15%">
+                                                        <th style="width: 10%">
                                                             @Html.Label("Name")
                                                             @Html.ActionLink(" ", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { @class = "fa fa-fw fa-sort" })
                                                         </th>
@@ -101,17 +116,26 @@
                                         </td>
                                         <td>
                                             @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-primary" })
-                                            @Html.ActionLink("Delete", "Delete", new { id = item.Id },htmlAttributes: new { @onclick = "return swal('Product Deleted!');",@class = "btn btn-primary" })
+                                            @Html.ActionLink("Delete", "Delete", new { id = item.Id }, htmlAttributes: new { @onclick = "return swal('Product Deleted!');", @class = "btn btn-danger" })
+                                            @Html.ActionLink("Details", "Details", new { id = item.Id }, htmlAttributes: new { @onclick = "return swal('Product Deleted!');", @class = "btn btn-info" })
 
-                                                
                                         </td>
-                                    </tr>}
-                                                </table>}
+                                    </tr>
+}
+                                                </table>
+}
 <div id="container" style="margin-left: 20px">
     <p></p>
     <p></p>
+    <center>
+        <div>
+
+            @Html.ActionLink("Back to List", "List", routeValues: null, htmlAttributes: new { @class = "btn btn-info" })
+            @Html.ActionLink("Back to Home", "Index", routeValues: null, htmlAttributes: new { @class = "btn btn-success" })
+        </div>
+    </center>
     <div class="pagination" style="margin-left: 400px">
         Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
-        of @Model.PageCount   @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+        of @Model.PageCount   @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
     </div>
 </div>

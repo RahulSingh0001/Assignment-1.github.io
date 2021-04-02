@@ -3,8 +3,11 @@
 @{
     ViewBag.Title = "Index";
 }
-
-<h2>Index</h2>
+<div>
+    <center>
+        <h2>Welcome</h2>
+    </center>
+</div>
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -20,17 +23,28 @@
                 <li>@Html.ActionLink("Add Product", "Create")</li>
 
             </ul>
-            <a class="btn navbar-btn btn-danger navbar-right" role="button" href="@Url.Action("Logout", "Home")">Logout</a>
+            <a class="btn navbar-btn btn-info navbar-right" role="button" href="@Url.Action("Logout", "Home")">Logout</a>
         </div>
     </div>
 </div>
 
 <div>
+    
     @if (User.Identity.IsAuthenticated)
-    {
-    <p>
-        Dear - @User.Identity.Name
-     
+    { 
+<center>
+    <p> <h1>
+    @User.Identity.Name.ToUpper()
+</h1>
     </p>
+</center>
     }
+</div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner"> <center>
+    <div class="carousel-item active">
+        <img src="~/Images/ecom3.jpg" alt="Alternate Text" width="100%" height="550px" />
+    </div>
+</center>
+    </div>
 </div>

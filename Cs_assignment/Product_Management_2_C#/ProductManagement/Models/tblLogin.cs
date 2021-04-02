@@ -11,17 +11,12 @@ namespace ProductManagement.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class tblLogin
     {
         public int Id { get; set; }
         public string username { get; set; }
-        [Required(ErrorMessage = "Password required")]
         public string password { get; set; }
-        [EmailAddress(ErrorMessage = "Invalid Email Id")]
-        [Required(ErrorMessage = "Email Id required")]
         public string emailid { get; set; }
     }
 }

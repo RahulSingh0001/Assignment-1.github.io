@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -13,16 +13,13 @@ using log4net;
 
 namespace ProductManagement.Controllers
 {
+
     [Authorize]
-
-
-
-    // 
     public class ProductsController : Controller
     {
         // Method for logging
         private static readonly ILog Log = LogManager.GetLogger(typeof(ProductsController));
-
+        // End of logger
 
         // Database Entity
         private ProdcutsEntities db = new ProdcutsEntities();
@@ -30,8 +27,8 @@ namespace ProductManagement.Controllers
         List<int> quantities = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 
-       // Product/Index area: Get
-	     [Route("Products/Index")]
+        // Product/Index area: Get
+             [Route("Products/Index")]
         public ActionResult Index()
         {
             return View();
@@ -41,11 +38,9 @@ namespace ProductManagement.Controllers
 
 
 
-
         // Here to Get Product List
         // Allthrough to display, serachg and sorting we use this method
-
-	     [Route("Products/List")]
+           [Route("Products/List")]
         public ActionResult List(string sortOrder, string currentFilter, string searchString, int? page)
         {
             // Method related for searching
@@ -57,14 +52,19 @@ namespace ProductManagement.Controllers
             {
                 searchString = currentFilter;
             }
-
             ViewBag.CurrentFilter = searchString;
             var products = from s in db.Products
                            select s;
             if (!String.IsNullOrEmpty(searchString))
             {
                 products = products.Where(s => s.Name.Contains(searchString)|| s.Category.Contains(searchString));
+
+
+                
+                
+
             }
+
             //End of searching method
 
 
@@ -88,17 +88,17 @@ namespace ProductManagement.Controllers
                     products = products.OrderBy(s => s.Name);
                     break;
             }
-
-
-      // End of Sorting Method
+            // End of Sorting Method
 
             // For paging we use this
             int pageSize = 3;
             int pageNumber = (page ?? 1);
             return View(products.ToPagedList(pageNumber, pageSize));
+
         }
-        // End of sorting process
-    
+
+
+
 
         // POST: Products/List
         [HttpPost]
@@ -110,7 +110,6 @@ namespace ProductManagement.Controllers
                 ModelState.AddModelError("", "No item selected to delete");
                 return View();
             }
-
 
             //  Method to Delete Multiple objects
 

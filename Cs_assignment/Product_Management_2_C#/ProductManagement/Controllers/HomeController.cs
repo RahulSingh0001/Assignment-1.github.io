@@ -12,6 +12,7 @@ namespace ProductManagement.Controllers
 {
     public class HomeController : Controller
     {
+        
         private static readonly ILog Log = LogManager.GetLogger(typeof(HomeController));
         //GET: Home/Login
         //For Login
