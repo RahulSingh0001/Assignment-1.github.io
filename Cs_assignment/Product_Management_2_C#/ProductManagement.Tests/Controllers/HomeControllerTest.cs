@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,14 +28,14 @@ namespace ProductManagement.Tests.Controllers
             HomeController controller = new HomeController();
             tblLogin login = new tblLogin()
             {
-                emailid = "akshayraj@gmail.com",
+                emailid = "rahul@gmail.com",
                 password = "123456"
             };
             // Act
             ViewResult result = controller.Login(login) as ViewResult;
 
             // Assert
-            Assert.AreEqual("akshayraj", result.ViewBag.Message);
+            Assert.AreEqual("rahul", result.ViewBag.Message);
             Assert.IsNotNull(result);
         }
         [TestMethod]
@@ -70,11 +70,11 @@ namespace ProductManagement.Tests.Controllers
             Product product = new Product()
             {
                 Id = 10,
-                Name = "Shoes",
+                Name = "Mobile",
                 Category = "Common",
-                Price = 1000,
+                Price = 13000,
                 Quantity = 1,
-                Short_desc = "Shoes",
+                Short_desc = "Mobile",
                 Small_img = "image"
             };
 
