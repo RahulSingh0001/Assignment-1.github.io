@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4xS2qD6jBu0SlE3BQOQwDoMOI6gckXTLt6OHHLjT1YNVfasOJy33RxK+mm2rL4kqmWbOe6m9vZE9YUYojRMBxQ==",
+  "dgSpecHash": "UtNKtQHw+hbExvUXTZhcLmu2uVEjP9BjG27cSHF7bfqh9mJ1iM7ZDSwtgRaj4v4qlqL4NbLV71KPpjP4RcumcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Gateway-Assignments-master\\DotnetCore\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahula.singh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rahula.singh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +18,8 @@ namespace Data
         }
 
         public DbSet<Employee> Employee { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

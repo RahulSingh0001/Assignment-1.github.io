@@ -5946,11 +5946,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Gateway-Assignments-master\\DotnetCore\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Gateway-Assignments-master\\DotnetCore\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\rahula.singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Gateway-Assignments-master\\DotnetCore\\Data\\obj\\",
+      "outputPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5970,8 +5970,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\rahula.singh\\Desktop\\share dg\\Gateway-Assignments-master\\DotnetCore\\BusinessEntities\\BusinessEntities.csproj": {
-              "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Gateway-Assignments-master\\DotnetCore\\BusinessEntities\\BusinessEntities.csproj"
+            "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\BusinessEntities\\BusinessEntities.csproj": {
+              "projectPath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\BusinessEntities\\BusinessEntities.csproj"
             }
           }
         }
