@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1J1zoCLJ3124Bn6ETodmJZcekd/EQYWhW6H7tSpyJZ3ENUEe7ULzXrHO8alTmJOSHel73H0pZ13ZOn2ko8KxQ==",
+  "dgSpecHash": "z61prBxr+DwNympoqeac8FPfmnbbHNWp5rfBwL3zi+ODqIg8BICWEguMtzfNtELvFbLU/SCzi3kuKkhONhqIWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\Webapi\\DotNetCoreWebapi.csproj",
+  "projectFilePath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\DotNetCore\\AssignmentOfDotnetCore\\Webapi\\DotNetCoreWebapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahula.singh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rahula.singh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

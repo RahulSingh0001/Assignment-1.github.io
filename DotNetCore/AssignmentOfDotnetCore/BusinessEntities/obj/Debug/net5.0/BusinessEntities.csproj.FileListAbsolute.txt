@@ -34,3 +34,15 @@ C:\Users\rahula.singh\Desktop\share dg\assignment\Gateway-Assignments-master\Ass
 C:\Users\rahula.singh\Desktop\share dg\assignment\Gateway-Assignments-master\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\ref\BusinessEntities.dll
 C:\Users\rahula.singh\Desktop\share dg\assignment\Gateway-Assignments-master\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.pdb
 C:\Users\rahula.singh\Desktop\share dg\assignment\Gateway-Assignments-master\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\bin\Debug\net5.0\BusinessEntities.deps.json
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\bin\Debug\net5.0\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\bin\Debug\net5.0\ref\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\bin\Debug\net5.0\BusinessEntities.pdb
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.AssemblyInfoInputs.cache
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.AssemblyInfo.cs
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\ref\BusinessEntities.dll
+C:\Users\rahula.singh\Desktop\share dg\Assignment-1.github.io\DotNetCore\AssignmentOfDotnetCore\BusinessEntities\obj\Debug\net5.0\BusinessEntities.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJ02N2nop2j3PJF2HShMrY8HY5ir+YKy5umapftKXIxlF5gABxOtLt+ysvnbkfmEqOE3/f+zkM1L6LoYqZQ57w==",
+  "dgSpecHash": "IrNk3/Ap4DiHHAAAMXSaA7Nonlz2JMTl1f18NJBEUAuuHqDvYDpb9AeI6B5uYPfs6/8UC+d/h5BqXACXlM1Z8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\assignment\\Gateway-Assignments-master\\AssignmentOfDotnetCore\\DotnetCore\\AssignmentOfDotnetCore.csproj",
+  "projectFilePath": "C:\\Users\\rahula.singh\\Desktop\\share dg\\Assignment-1.github.io\\DotNetCore\\AssignmentOfDotnetCore\\DotnetCore\\AssignmentOfDotnetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahula.singh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rahula.singh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
