@@ -1,4 +1,19 @@
-﻿@if (User.Identity.IsAuthenticated)
-{
-    @User.Identity.Name;
-}
+﻿
+<div style="text-align:center; margin-top:10%">
+
+    @if (User.Identity.IsAuthenticated)
+    {
+    <h1>
+        <p class="alert-info">
+
+            @User.Identity.Name
+            
+            
+
+
+        </p>
+    </h1>
+     }
+
+
+</div>

@@ -27,6 +27,7 @@ namespace Data.Repository
                 _context.Employee.Add(entity);
                 _context.SaveChanges();
                 return "Employee added";
+                
             }
 
             return "Model is null";

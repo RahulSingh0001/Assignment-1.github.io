@@ -52,6 +52,7 @@ namespace AssignmentOfDotnetCore.Controllers
         {
             var result = _EmployeeManager.GetAllEmployees().ToList();
             return View(result);
+            
         }
         // GET: Employee/Details/5
         public IActionResult Details(int? id)
