@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "McT2p7ykkI5iYBRxwQ6SlsXVp0I7SnpkIMivVTuKX3xCGmwsIleBHD2h+9N9NxuPYx+c86F8rxgO5jp643J3Pw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rahula.singh\\source\\repos\\Assignment8Nunit\\TestService\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rahula.singh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rahula.singh\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\rahula.singh\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512"
+  ],
+  "logs": []
+}
