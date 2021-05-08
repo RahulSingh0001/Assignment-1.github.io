@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Moq;
+using NUnit.Framework;
 using Service;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,30 @@ namespace TestService
     public class TestCaseClass
     {
         private MethodClass _service;
+        private AgeData _ageData;
+        private AgeData _originalData;
         [SetUp]
         public void Setup()
         {
             _service = new MethodClass();
+            _originalData = new AgeData();
+
+            // Mock  Method Setup
+            // Mock Object Creation
+            var ageDatabase = new Mock<AgeData>();
+
+            //Setup and Ovverride 
+            ageDatabase.Setup(m => m.DataUsers()).Returns(new List<AgeData>()
+            {
+                 new AgeData { Name = "Tony Stark", Age = 38, Address = "New York" },
+                new AgeData { Name = "Dr. Steven Strange", Age = 45, Address = "New York" },
+                new AgeData { Name = "Wanda", Age = 26, Address = "Soukovia" },
+            });
+
+            // Object Assigning
+
+            _ageData = ageDatabase.Object;
+            // End of Mock method setup
         }
 
         // Test Case 1
@@ -136,9 +157,104 @@ namespace TestService
             Assert.That(value, Is.IsLower(value));
         }
 
+        [Test]
+        public void Custom_TestCase_Oject_Type_string()
+        {
+            string value = "TONY";
+
+            Assert.That("tONY", Is.IsLower(value));
+        }
+
+        [Test]
+        public void Custom_TestCase_example3()
+        {
+            string value = "RaHuL Singh";
+
+            Assert.That("raHuL Singh", Is.IsLower(value));
+        }
+
+        [Test]
+        public void Upper_CustomConstraint_check()
+        {
+            string value = "rahul";
+            Assert.That("Rahul", Is.IsUpper(value));
+        }
+
+
+
+
+
+        [Test]
+        public void Upper_CustomConstraint_check_Multi_String()
+        {
+            string value = "rahul singh";
+            Assert.That("Rahul singh", Is.IsUpper(value));
+        }
+
+
+
+
+        [Test]
+        
+        public void AgeData_original_AgeData_Check()
+        
+            {
+                var result = _originalData.DataUsers();
+                Assert.That(result, Has
+                    .Count.EqualTo(6)
+                    .And.Exactly(6).Property("Age").GreaterThan(20)
+                    );
+            }
+        
+
+
+        [Test]
+        public void Mock_False1_Checking_Count_List_False_Check()
+        {
+            //Assert
+            Assert.False(_ageData.DataUsers().Count == 4);
+        }
+
+
+        [Test]
+        public void Mock_True2_Checking_Count_List_True_Check()
+        {
+            //Assert
+            Assert.True(_ageData.DataUsers().Count == 3);
+        }
+
+        [Test]
+        public void Mock_Assert_That3_Checking_Count_List_With_Assert_That_Function()
+        {
+
+            //Assert
+            Assert.That(_ageData.DataUsers(), Has
+                     .Count.EqualTo(3)
+                     .And.Exactly(3).Property("Age").GreaterThan(20)
+                     );
+        }
+
+        [Test]
+        public void Mock_Name4_Checking_Count_List_Name_Search_Check()
+        {
+            // Act
+            var result = _ageData.DataUsers();
+            //Assert
+            Assert.That(result, Has
+                .Some.Property("Name").EqualTo("Tony Stark"));
+        }
+
+        [Test]
+        public void Mock_Address5_Checking_Count_List_Address_Check()
+        {
+            var result = _ageData.DataUsers();
+            Assert.That(result, Has
+                .Count.EqualTo(3)
+                .And.Some.Property("Address").EqualTo("Soukovia"));
+        }
 
         
-        
+
     }
 
 

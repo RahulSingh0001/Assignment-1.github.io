@@ -226,11 +226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rahula.singh\\source\\repos\\Assignment8Nunit\\TestService\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\rahula.singh\\Desktop\\Tasksheet\\TestService\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\rahula.singh\\source\\repos\\Assignment8Nunit\\TestService\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\rahula.singh\\Desktop\\Tasksheet\\TestService\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\rahula.singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rahula.singh\\source\\repos\\Assignment8Nunit\\TestService\\Service\\obj\\",
+      "outputPath": "C:\\Users\\rahula.singh\\Desktop\\Tasksheet\\TestService\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
