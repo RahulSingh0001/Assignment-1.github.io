@@ -20,7 +20,7 @@ namespace Dealer.Controllers.Tests
         public void LoginTest()
         {
             var logincontroller = new LoginController(new Login(new TestLoginRepository()), new Customer(new TestCustomerRepository()));
-            LoginModel login = new LoginModel() { emailid= "akshayraj123@gmail.com",password = "123456" };
+            LoginModel login = new LoginModel() { emailid= "cscrahul001@gmail.com",password = "123456" };
             ViewResult result = logincontroller.Login(login) as ViewResult;
             Assert.IsNotNull(result);
         }
